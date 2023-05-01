@@ -1,0 +1,241 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic;
+    font-family: bold;
+}
+header
+{
+    width: 100%;
+    height: 170px;
+    background-color: #AD0E00;
+    position: sticky; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.main ul
+{
+   list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+ul li
+{
+    display: inline-block;
+}
+ul li a
+{
+    text-size-adjust: 100px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a
+{
+    background-color: #fff;
+    color: #000;
+}
+.dis{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+
+
+
+
+.new2{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    top: 400px;
+}
+footer{
+    background-color:black ;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin:10px;
+    }
+}
+
+
+
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+}
+p{
+    color: white;
+    text-align: center;
+    position: relative;
+}
+video{
+    border:3px solid black;
+    border-radius: 40px;
+}
+
+
+
+.b1{
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+.b2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    
+}
+.slider{
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    border: 2px #000 solid;
+    border-radius: 40px;
+}
+.images{
+    display: flex;
+    width: 100%;
+
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15 ease;
+}
+.images input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid white;
+    transition: 0.15 ease;
+    margin: 5px;
+}
+.dots label:hover{background: black;}
+#img1:checked ~ .m1{
+    margin: 0;
+}
+#img2:checked ~ .m2{
+    margin: -100%;
+}
+#img3:checked ~ .m3{
+    margin: -200%;
+}
+.w1{
+    color: white;
+    position: relative;
+    top: 30px;
+}
+body{
+    background-image: url(image.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
